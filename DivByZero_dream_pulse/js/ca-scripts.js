@@ -3,13 +3,16 @@ var customerName = "Alliance  ";
 // <h1 id="tm-header" class="tm-brand text-uppercase"></h1> <!--todo: Add Customer Name-->
 function addCustomerName() {
 
-    let title = document.getElementById('title')
+    let title = document.getElementById("#title")
     title.textContent = customerName;
     
     // <h1 id="tm-header" class="tm-brand text-uppercase"></h1> <!--todo: Add Customer Name-->
+    let header = document.getElementById("tm-header")
+    header.textContent = customerName;
 
     // <h2 id="introheader" class="tm-section-title mb-5 text-uppercase tm-color-primary"></h2> <!--todo: Add Customer Name-->
-
+    let introHeader = document.getElementById("introHeader")
+    introHeader.textContent = customerName;
 };
 
 function toggleColors() {
